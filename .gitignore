@@ -1,0 +1,110 @@
+##############################
+############ Temp ############
+##############################
+# m01-introductory-module
+# m02-language-syntax/
+# m03-objects-and-classes/
+# m04-numbers-strings-and-dates/
+# m05-arrays-and-collections/
+# m06-inheritance-and-polymorphism/
+# m07-features-of-oop-in-java/
+# m08-exceptions-debugging-testing-and-logging/
+# m09-working-with-files-and-the-network/
+m10-working-with-mysql-in-java/
+m11-multithreading/
+m12-web-application-development/
+m13-non-relational-(nosql)-databases/
+m14-performance-and-optimization/
+m15-distributed-storage-and-computing/
+m16-final-module/
+m17-bonus-module-design-patterns/
+m18-bonus-module-algorithms/
+m19-bonus-module-data-structures/
+m20-bonus-module-http-protocol/
+# .gitignore
+
+##############################
+############ Java ############
+##############################
+.mtj.tmp/
+*.class
+#*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+replay_pid*
+
+##############################
+########### Maven ############
+##############################
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+pom.xml.bak
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+##############################
+########### Gradle ###########
+##############################
+bin/
+build/
+.gradle
+.gradletasknamecache
+gradle-app.setting
+!gradle-wrapper.jar
+
+##############################
+########## IntelliJ ##########
+##############################
+out/
+.idea/
+.idea_modules/
+*.iml
+*.ipr
+*.iws
+
+##############################
+########## Eclipse ###########
+##############################
+.settings/
+bin/
+tmp/
+.metadata
+.classpath
+.project
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+.factorypath
+
+##############################
+########## NetBeans ##########
+##############################
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+##############################
+##### Visual Studio Code #####
+##############################
+.vscode/
+.code-workspace
+
+##############################
+############ OS X ############
+##############################
+.DS_Store
