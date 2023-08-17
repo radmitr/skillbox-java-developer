@@ -1,0 +1,74 @@
+2023-07-20 12:29:58.098 [main] ERROR  - Process finished with exit code -11
+java.nio.file.NoSuchFileException: src\main\resources\map2.json
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:380) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:432) ~[?:?]
+	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422) ~[?:?]
+	at java.nio.file.Files.newInputStream(Files.java:160) ~[?:?]
+	at java.nio.file.Files.newBufferedReader(Files.java:2922) ~[?:?]
+	at java.nio.file.Files.readAllLines(Files.java:3412) ~[?:?]
+	at java.nio.file.Files.readAllLines(Files.java:3453) ~[?:?]
+	at Main.getJsonFile(Main.java:185) ~[classes/:?]
+	at Main.createStationIndex(Main.java:115) ~[classes/:?]
+	at Main.getRouteCalculator(Main.java:77) ~[classes/:?]
+	at Main.main(Main.java:42) [classes/:?]
+2023-07-20 12:31:23.906 [main] ERROR  - Process finished with exit code -12
+java.lang.NullPointerException: Object "stations" doesn't exist in JSON file
+	at Main.createStationIndex(Main.java:125) ~[classes/:?]
+	at Main.getRouteCalculator(Main.java:77) ~[classes/:?]
+	at Main.main(Main.java:42) [classes/:?]
+2023-07-20 12:33:05.541 [main] ERROR  - Process finished with exit code -12
+java.lang.NullPointerException: Array "lines" doesn't exist in JSON file
+	at Main.createStationIndex(Main.java:119) ~[classes/:?]
+	at Main.getRouteCalculator(Main.java:77) ~[classes/:?]
+	at Main.main(Main.java:42) [classes/:?]
+2023-07-20 12:33:17.914 [main] ERROR  - Process finished with exit code -12
+java.lang.NullPointerException: Array "lines" doesn't exist in JSON file
+	at Main.createStationIndex(Main.java:119) ~[classes/:?]
+	at Main.getRouteCalculator(Main.java:77) ~[classes/:?]
+	at Main.main(Main.java:42) [classes/:?]
+2023-07-20 12:33:58.127 [main] ERROR  - Process finished with exit code -13
+org.json.simple.parser.ParseException: null
+	at org.json.simple.parser.JSONParser.parse(JSONParser.java:257) ~[json-simple-1.1.1.jar:?]
+	at org.json.simple.parser.JSONParser.parse(JSONParser.java:81) ~[json-simple-1.1.1.jar:?]
+	at org.json.simple.parser.JSONParser.parse(JSONParser.java:75) ~[json-simple-1.1.1.jar:?]
+	at Main.createStationIndex(Main.java:115) ~[classes/:?]
+	at Main.getRouteCalculator(Main.java:77) ~[classes/:?]
+	at Main.main(Main.java:42) [classes/:?]
+2023-07-20 13:09:42.390 [main] ERROR  - Process finished with exit code -11
+java.nio.file.NoSuchFileException: src\main\resources\map2.json
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:380) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:432) ~[?:?]
+	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422) ~[?:?]
+	at java.nio.file.Files.newInputStream(Files.java:160) ~[?:?]
+	at java.nio.file.Files.newBufferedReader(Files.java:2922) ~[?:?]
+	at java.nio.file.Files.readAllLines(Files.java:3412) ~[?:?]
+	at java.nio.file.Files.readAllLines(Files.java:3453) ~[?:?]
+	at Main.getJsonFile(Main.java:185) ~[classes/:?]
+	at Main.createStationIndex(Main.java:115) ~[classes/:?]
+	at Main.getRouteCalculator(Main.java:77) ~[classes/:?]
+	at Main.main(Main.java:42) [classes/:?]
+2023-07-20 13:11:48.934 [main] ERROR  - Process finished with exit code -11
+java.nio.file.NoSuchFileException: src\main\resources\map2.json
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:380) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:432) ~[?:?]
+	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422) ~[?:?]
+	at java.nio.file.Files.newInputStream(Files.java:160) ~[?:?]
+	at java.nio.file.Files.newBufferedReader(Files.java:2922) ~[?:?]
+	at java.nio.file.Files.readAllLines(Files.java:3412) ~[?:?]
+	at java.nio.file.Files.readAllLines(Files.java:3453) ~[?:?]
+	at Main.getJsonFile(Main.java:184) ~[classes/:?]
+	at Main.createStationIndex(Main.java:115) ~[classes/:?]
+	at Main.getRouteCalculator(Main.java:77) ~[classes/:?]
+	at Main.main(Main.java:42) [classes/:?]

@@ -1,0 +1,185 @@
+2023-07-21 17:13:45,956 [main] TRACE core.Line - Constructor start: 1-Кировско-Выборгская
+2023-07-21 17:13:45,962 [main] DEBUG core.Line - Method insertion check: METHOD WAS INVOKED even if the log fails the level
+2023-07-21 17:13:45,962 [main] TRACE core.Line - constructor end: 1-Кировско-Выборгская
+2023-07-21 17:13:45,964 [main] TRACE core.Line - Constructor start: 2-Московско-Петроградская
+2023-07-21 17:13:45,965 [main] DEBUG core.Line - Method insertion check: METHOD WAS INVOKED even if the log fails the level
+2023-07-21 17:13:45,965 [main] TRACE core.Line - constructor end: 2-Московско-Петроградская
+2023-07-21 17:13:45,965 [main] TRACE core.Line - Constructor start: 3-Невско-Василеостровская
+2023-07-21 17:13:45,965 [main] DEBUG core.Line - Method insertion check: METHOD WAS INVOKED even if the log fails the level
+2023-07-21 17:13:45,965 [main] TRACE core.Line - constructor end: 3-Невско-Василеостровская
+2023-07-21 17:13:45,966 [main] TRACE core.Line - Constructor start: 4-Правобережная
+2023-07-21 17:13:45,967 [main] DEBUG core.Line - Method insertion check: METHOD WAS INVOKED even if the log fails the level
+2023-07-21 17:13:45,968 [main] TRACE core.Line - constructor end: 4-Правобережная
+2023-07-21 17:13:45,968 [main] TRACE core.Line - Constructor start: 5-Фрунзенско-Приморская
+2023-07-21 17:13:45,968 [main] DEBUG core.Line - Method insertion check: METHOD WAS INVOKED even if the log fails the level
+2023-07-21 17:13:45,969 [main] TRACE core.Line - constructor end: 5-Фрунзенско-Приморская
+2023-07-21 17:13:46,002 [main] TRACE core.Station - Constructor start: 1-Девяткино
+2023-07-21 17:13:46,002 [main] TRACE core.Station - Constructor end: 1-Девяткино
+2023-07-21 17:13:46,003 [main] TRACE core.Station - Constructor start: 1-Гражданский проспект
+2023-07-21 17:13:46,003 [main] TRACE core.Station - Constructor end: 1-Гражданский проспект
+2023-07-21 17:13:46,003 [main] TRACE core.Station - Constructor start: 1-Академическая
+2023-07-21 17:13:46,003 [main] TRACE core.Station - Constructor end: 1-Академическая
+2023-07-21 17:13:46,004 [main] TRACE core.Station - Constructor start: 1-Политехническая
+2023-07-21 17:13:46,004 [main] TRACE core.Station - Constructor end: 1-Политехническая
+2023-07-21 17:13:46,004 [main] TRACE core.Station - Constructor start: 1-Площадь Мужества
+2023-07-21 17:13:46,004 [main] TRACE core.Station - Constructor end: 1-Площадь Мужества
+2023-07-21 17:13:46,004 [main] TRACE core.Station - Constructor start: 1-Лесная
+2023-07-21 17:13:46,004 [main] TRACE core.Station - Constructor end: 1-Лесная
+2023-07-21 17:13:46,004 [main] TRACE core.Station - Constructor start: 1-Выборгская
+2023-07-21 17:13:46,005 [main] TRACE core.Station - Constructor end: 1-Выборгская
+2023-07-21 17:13:46,005 [main] TRACE core.Station - Constructor start: 1-Площадь Ленина
+2023-07-21 17:13:46,005 [main] TRACE core.Station - Constructor end: 1-Площадь Ленина
+2023-07-21 17:13:46,005 [main] TRACE core.Station - Constructor start: 1-Чернышевская
+2023-07-21 17:13:46,005 [main] TRACE core.Station - Constructor end: 1-Чернышевская
+2023-07-21 17:13:46,005 [main] TRACE core.Station - Constructor start: 1-Площадь Восстания
+2023-07-21 17:13:46,005 [main] TRACE core.Station - Constructor end: 1-Площадь Восстания
+2023-07-21 17:13:46,006 [main] TRACE core.Station - Constructor start: 1-Владимирская
+2023-07-21 17:13:46,006 [main] TRACE core.Station - Constructor end: 1-Владимирская
+2023-07-21 17:13:46,006 [main] TRACE core.Station - Constructor start: 1-Пушкинская
+2023-07-21 17:13:46,006 [main] TRACE core.Station - Constructor end: 1-Пушкинская
+2023-07-21 17:13:46,006 [main] TRACE core.Station - Constructor start: 1-Технологический институт
+2023-07-21 17:13:46,007 [main] TRACE core.Station - Constructor end: 1-Технологический институт
+2023-07-21 17:13:46,007 [main] TRACE core.Station - Constructor start: 1-Балтийская
+2023-07-21 17:13:46,007 [main] TRACE core.Station - Constructor end: 1-Балтийская
+2023-07-21 17:13:46,007 [main] TRACE core.Station - Constructor start: 1-Нарвская
+2023-07-21 17:13:46,007 [main] TRACE core.Station - Constructor end: 1-Нарвская
+2023-07-21 17:13:46,008 [main] TRACE core.Station - Constructor start: 1-Кировский завод
+2023-07-21 17:13:46,008 [main] TRACE core.Station - Constructor end: 1-Кировский завод
+2023-07-21 17:13:46,008 [main] TRACE core.Station - Constructor start: 1-Автово
+2023-07-21 17:13:46,008 [main] TRACE core.Station - Constructor end: 1-Автово
+2023-07-21 17:13:46,008 [main] TRACE core.Station - Constructor start: 1-Ленинский проспект
+2023-07-21 17:13:46,008 [main] TRACE core.Station - Constructor end: 1-Ленинский проспект
+2023-07-21 17:13:46,008 [main] TRACE core.Station - Constructor start: 1-Проспект Ветеранов
+2023-07-21 17:13:46,008 [main] TRACE core.Station - Constructor end: 1-Проспект Ветеранов
+2023-07-21 17:13:46,009 [main] TRACE core.Station - Constructor start: 2-Парнас
+2023-07-21 17:13:46,009 [main] TRACE core.Station - Constructor end: 2-Парнас
+2023-07-21 17:13:46,009 [main] TRACE core.Station - Constructor start: 2-Проспект Просвещения
+2023-07-21 17:13:46,009 [main] TRACE core.Station - Constructor end: 2-Проспект Просвещения
+2023-07-21 17:13:46,009 [main] TRACE core.Station - Constructor start: 2-Озерки
+2023-07-21 17:13:46,009 [main] TRACE core.Station - Constructor end: 2-Озерки
+2023-07-21 17:13:46,009 [main] TRACE core.Station - Constructor start: 2-Удельная
+2023-07-21 17:13:46,009 [main] TRACE core.Station - Constructor end: 2-Удельная
+2023-07-21 17:13:46,009 [main] TRACE core.Station - Constructor start: 2-Пионерская
+2023-07-21 17:13:46,009 [main] TRACE core.Station - Constructor end: 2-Пионерская
+2023-07-21 17:13:46,010 [main] TRACE core.Station - Constructor start: 2-Чёрная речка
+2023-07-21 17:13:46,010 [main] TRACE core.Station - Constructor end: 2-Чёрная речка
+2023-07-21 17:13:46,010 [main] TRACE core.Station - Constructor start: 2-Петроградская
+2023-07-21 17:13:46,010 [main] TRACE core.Station - Constructor end: 2-Петроградская
+2023-07-21 17:13:46,010 [main] TRACE core.Station - Constructor start: 2-Горьковская
+2023-07-21 17:13:46,010 [main] TRACE core.Station - Constructor end: 2-Горьковская
+2023-07-21 17:13:46,010 [main] TRACE core.Station - Constructor start: 2-Невский проспект
+2023-07-21 17:13:46,010 [main] TRACE core.Station - Constructor end: 2-Невский проспект
+2023-07-21 17:13:46,010 [main] TRACE core.Station - Constructor start: 2-Сенная площадь
+2023-07-21 17:13:46,011 [main] TRACE core.Station - Constructor end: 2-Сенная площадь
+2023-07-21 17:13:46,011 [main] TRACE core.Station - Constructor start: 2-Технологический институт
+2023-07-21 17:13:46,011 [main] TRACE core.Station - Constructor end: 2-Технологический институт
+2023-07-21 17:13:46,011 [main] TRACE core.Station - Constructor start: 2-Фрунзенская
+2023-07-21 17:13:46,011 [main] TRACE core.Station - Constructor end: 2-Фрунзенская
+2023-07-21 17:13:46,011 [main] TRACE core.Station - Constructor start: 2-Московские ворота
+2023-07-21 17:13:46,011 [main] TRACE core.Station - Constructor end: 2-Московские ворота
+2023-07-21 17:13:46,011 [main] TRACE core.Station - Constructor start: 2-Электросила
+2023-07-21 17:13:46,011 [main] TRACE core.Station - Constructor end: 2-Электросила
+2023-07-21 17:13:46,012 [main] TRACE core.Station - Constructor start: 2-Парк Победы
+2023-07-21 17:13:46,012 [main] TRACE core.Station - Constructor end: 2-Парк Победы
+2023-07-21 17:13:46,014 [main] TRACE core.Station - Constructor start: 2-Московская
+2023-07-21 17:13:46,014 [main] TRACE core.Station - Constructor end: 2-Московская
+2023-07-21 17:13:46,014 [main] TRACE core.Station - Constructor start: 2-Звёздная
+2023-07-21 17:13:46,015 [main] TRACE core.Station - Constructor end: 2-Звёздная
+2023-07-21 17:13:46,015 [main] TRACE core.Station - Constructor start: 2-Купчино
+2023-07-21 17:13:46,015 [main] TRACE core.Station - Constructor end: 2-Купчино
+2023-07-21 17:13:46,015 [main] TRACE core.Station - Constructor start: 3-Беговая
+2023-07-21 17:13:46,015 [main] TRACE core.Station - Constructor end: 3-Беговая
+2023-07-21 17:13:46,015 [main] TRACE core.Station - Constructor start: 3-Зенит
+2023-07-21 17:13:46,016 [main] TRACE core.Station - Constructor end: 3-Зенит
+2023-07-21 17:13:46,016 [main] TRACE core.Station - Constructor start: 3-Приморская
+2023-07-21 17:13:46,016 [main] TRACE core.Station - Constructor end: 3-Приморская
+2023-07-21 17:13:46,016 [main] TRACE core.Station - Constructor start: 3-Василеостровская
+2023-07-21 17:13:46,016 [main] TRACE core.Station - Constructor end: 3-Василеостровская
+2023-07-21 17:13:46,016 [main] TRACE core.Station - Constructor start: 3-Гостиный двор
+2023-07-21 17:13:46,017 [main] TRACE core.Station - Constructor end: 3-Гостиный двор
+2023-07-21 17:13:46,017 [main] TRACE core.Station - Constructor start: 3-Маяковская
+2023-07-21 17:13:46,017 [main] TRACE core.Station - Constructor end: 3-Маяковская
+2023-07-21 17:13:46,017 [main] TRACE core.Station - Constructor start: 3-Площадь Александра Невского
+2023-07-21 17:13:46,017 [main] TRACE core.Station - Constructor end: 3-Площадь Александра Невского
+2023-07-21 17:13:46,017 [main] TRACE core.Station - Constructor start: 3-Елизаровская
+2023-07-21 17:13:46,018 [main] TRACE core.Station - Constructor end: 3-Елизаровская
+2023-07-21 17:13:46,018 [main] TRACE core.Station - Constructor start: 3-Ломоносовская
+2023-07-21 17:13:46,018 [main] TRACE core.Station - Constructor end: 3-Ломоносовская
+2023-07-21 17:13:46,018 [main] TRACE core.Station - Constructor start: 3-Пролетарская
+2023-07-21 17:13:46,018 [main] TRACE core.Station - Constructor end: 3-Пролетарская
+2023-07-21 17:13:46,018 [main] TRACE core.Station - Constructor start: 3-Обухово
+2023-07-21 17:13:46,018 [main] TRACE core.Station - Constructor end: 3-Обухово
+2023-07-21 17:13:46,018 [main] TRACE core.Station - Constructor start: 3-Рыбацкое
+2023-07-21 17:13:46,018 [main] TRACE core.Station - Constructor end: 3-Рыбацкое
+2023-07-21 17:13:46,018 [main] TRACE core.Station - Constructor start: 4-Спасская
+2023-07-21 17:13:46,019 [main] TRACE core.Station - Constructor end: 4-Спасская
+2023-07-21 17:13:46,019 [main] TRACE core.Station - Constructor start: 4-Достоевская
+2023-07-21 17:13:46,020 [main] TRACE core.Station - Constructor end: 4-Достоевская
+2023-07-21 17:13:46,020 [main] TRACE core.Station - Constructor start: 4-Лиговский проспект
+2023-07-21 17:13:46,020 [main] TRACE core.Station - Constructor end: 4-Лиговский проспект
+2023-07-21 17:13:46,020 [main] TRACE core.Station - Constructor start: 4-Площадь Александра Невского
+2023-07-21 17:13:46,020 [main] TRACE core.Station - Constructor end: 4-Площадь Александра Невского
+2023-07-21 17:13:46,021 [main] TRACE core.Station - Constructor start: 4-Новочеркасская
+2023-07-21 17:13:46,021 [main] TRACE core.Station - Constructor end: 4-Новочеркасская
+2023-07-21 17:13:46,022 [main] TRACE core.Station - Constructor start: 4-Ладожская
+2023-07-21 17:13:46,022 [main] TRACE core.Station - Constructor end: 4-Ладожская
+2023-07-21 17:13:46,022 [main] TRACE core.Station - Constructor start: 4-Проспект Большевиков
+2023-07-21 17:13:46,022 [main] TRACE core.Station - Constructor end: 4-Проспект Большевиков
+2023-07-21 17:13:46,023 [main] TRACE core.Station - Constructor start: 4-Улица Дыбенко
+2023-07-21 17:13:46,023 [main] TRACE core.Station - Constructor end: 4-Улица Дыбенко
+2023-07-21 17:13:46,023 [main] TRACE core.Station - Constructor start: 5-Комендантский проспект
+2023-07-21 17:13:46,023 [main] TRACE core.Station - Constructor end: 5-Комендантский проспект
+2023-07-21 17:13:46,023 [main] TRACE core.Station - Constructor start: 5-Старая Деревня
+2023-07-21 17:13:46,024 [main] TRACE core.Station - Constructor end: 5-Старая Деревня
+2023-07-21 17:13:46,024 [main] TRACE core.Station - Constructor start: 5-Крестовский остров
+2023-07-21 17:13:46,024 [main] TRACE core.Station - Constructor end: 5-Крестовский остров
+2023-07-21 17:13:46,024 [main] TRACE core.Station - Constructor start: 5-Чкаловская
+2023-07-21 17:13:46,024 [main] TRACE core.Station - Constructor end: 5-Чкаловская
+2023-07-21 17:13:46,024 [main] TRACE core.Station - Constructor start: 5-Спортивная
+2023-07-21 17:13:46,024 [main] TRACE core.Station - Constructor end: 5-Спортивная
+2023-07-21 17:13:46,024 [main] TRACE core.Station - Constructor start: 5-Адмиралтейская
+2023-07-21 17:13:46,025 [main] TRACE core.Station - Constructor end: 5-Адмиралтейская
+2023-07-21 17:13:46,025 [main] TRACE core.Station - Constructor start: 5-Садовая
+2023-07-21 17:13:46,025 [main] TRACE core.Station - Constructor end: 5-Садовая
+2023-07-21 17:13:46,025 [main] TRACE core.Station - Constructor start: 5-Звенигородская
+2023-07-21 17:13:46,025 [main] TRACE core.Station - Constructor end: 5-Звенигородская
+2023-07-21 17:13:46,025 [main] TRACE core.Station - Constructor start: 5-Обводный канал
+2023-07-21 17:13:46,025 [main] TRACE core.Station - Constructor end: 5-Обводный канал
+2023-07-21 17:13:46,025 [main] TRACE core.Station - Constructor start: 5-Волковская
+2023-07-21 17:13:46,025 [main] TRACE core.Station - Constructor end: 5-Волковская
+2023-07-21 17:13:46,026 [main] TRACE core.Station - Constructor start: 5-Бухарестская
+2023-07-21 17:13:46,026 [main] TRACE core.Station - Constructor end: 5-Бухарестская
+2023-07-21 17:13:46,026 [main] TRACE core.Station - Constructor start: 5-Международная
+2023-07-21 17:13:46,026 [main] TRACE core.Station - Constructor end: 5-Международная
+2023-07-21 17:13:46,026 [main] TRACE core.Station - Constructor start: 5-Проспект Славы
+2023-07-21 17:13:46,026 [main] TRACE core.Station - Constructor end: 5-Проспект Славы
+2023-07-21 17:13:46,026 [main] TRACE core.Station - Constructor start: 5-Дунайская
+2023-07-21 17:13:46,026 [main] TRACE core.Station - Constructor end: 5-Дунайская
+2023-07-21 17:13:46,026 [main] TRACE core.Station - Constructor start: 5-Шушары
+2023-07-21 17:13:46,027 [main] TRACE core.Station - Constructor end: 5-Шушары
+2023-07-21 17:13:46,027 [main] TRACE core.Station - Constructor start: 2-Невский проспект
+2023-07-21 17:13:46,027 [main] TRACE core.Station - Constructor end: 2-Невский проспект
+2023-07-21 17:13:46,028 [main] TRACE core.Station - Constructor start: 3-Гостиный двор
+2023-07-21 17:13:46,028 [main] TRACE core.Station - Constructor end: 3-Гостиный двор
+2023-07-21 17:13:46,028 [main] TRACE core.Station - Constructor start: 1-Площадь Восстания
+2023-07-21 17:13:46,029 [main] TRACE core.Station - Constructor end: 1-Площадь Восстания
+2023-07-21 17:13:46,029 [main] TRACE core.Station - Constructor start: 3-Маяковская
+2023-07-21 17:13:46,029 [main] TRACE core.Station - Constructor end: 3-Маяковская
+2023-07-21 17:13:46,029 [main] TRACE core.Station - Constructor start: 2-Сенная Площадь
+2023-07-21 17:13:46,029 [main] TRACE core.Station - Constructor end: 2-Сенная Площадь
+2023-07-21 17:13:46,029 [main] TRACE core.Station - Constructor start: 4-Спасская
+2023-07-21 17:13:46,029 [main] TRACE core.Station - Constructor end: 4-Спасская
+2023-07-21 17:13:46,029 [main] TRACE core.Station - Constructor start: 5-Садовая
+2023-07-21 17:13:46,029 [main] TRACE core.Station - Constructor end: 5-Садовая
+2023-07-21 17:13:46,030 [main] TRACE core.Station - Constructor start: 1-Владимирская
+2023-07-21 17:13:46,030 [main] TRACE core.Station - Constructor end: 1-Владимирская
+2023-07-21 17:13:46,030 [main] TRACE core.Station - Constructor start: 4-Достоевская
+2023-07-21 17:13:46,030 [main] TRACE core.Station - Constructor end: 4-Достоевская
+2023-07-21 17:13:46,030 [main] TRACE core.Station - Constructor start: 1-Пушкинская
+2023-07-21 17:13:46,030 [main] TRACE core.Station - Constructor end: 1-Пушкинская
+2023-07-21 17:13:46,030 [main] TRACE core.Station - Constructor start: 5-Звенигородская
+2023-07-21 17:13:46,030 [main] TRACE core.Station - Constructor end: 5-Звенигородская
+2023-07-21 17:13:46,030 [main] TRACE core.Station - Constructor start: 3-Площадь Александра Невского
+2023-07-21 17:13:46,030 [main] TRACE core.Station - Constructor end: 3-Площадь Александра Невского
+2023-07-21 17:13:46,031 [main] TRACE core.Station - Constructor start: 4-Площадь Александра Невского
+2023-07-21 17:13:46,031 [main] TRACE core.Station - Constructor end: 4-Площадь Александра Невского
