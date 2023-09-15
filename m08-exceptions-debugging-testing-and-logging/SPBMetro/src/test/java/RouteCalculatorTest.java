@@ -12,7 +12,7 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @TestClassOrder(ClassOrderer.OrderAnnotation.class)
-public class RouteCalculatorTest {
+class RouteCalculatorTest {
 
     private static final Logger log = LoggerFactory.getLogger(RouteCalculatorTest.class); // slf4j
 
@@ -26,9 +26,10 @@ public class RouteCalculatorTest {
     static List<Station> routeWithTwoConnectionsReversed;
 
     @BeforeAll
-    static void setUpMetroAndRoutesAndRouteCalculator() {
+    static void setUp() {
 
         // ---------------- Metro ---------------------
+
         ///////////////////////////////////////////////
         //                                           //
         //              (line2)                      //
@@ -175,58 +176,65 @@ public class RouteCalculatorTest {
     class GetShortestRoute {
         @Test
         @Order(1)
-        public void testGetShortestRouteMethodWithoutConnections() {
+        void getShortestRoute_withoutConnections() {
             LocalDateTime dt = LocalDateTime.now();
             log.debug("TEST SLF4J {}", dt);
             List<Station> expected = routeWithoutConnections;
-            List<Station> actual = calculator.getShortestRoute(stationIndex.getStation("Яблочная"), stationIndex.getStation("Виноградная"));
+            List<Station> actual = calculator.getShortestRoute(stationIndex.getStation("Яблочная"),
+                    stationIndex.getStation("Виноградная"));
             assertEquals(expected, actual);
         }
 
         @Test
         @Order(2)
-        public void testGetShortestRouteMethodWithoutConnectionsReversed() {
+        void getShortestRoute_withoutConnectionsAndWithReversedStations() {
             List<Station> expected = routeWithoutConnectionsReversed;
-            List<Station> actual = calculator.getShortestRoute(stationIndex.getStation("Виноградная"), stationIndex.getStation("Яблочная"));
+            List<Station> actual = calculator.getShortestRoute(stationIndex.getStation("Виноградная"),
+                    stationIndex.getStation("Яблочная"));
             assertEquals(expected, actual);
         }
 
         @Test
         @Order(3)
-        public void testGetShortestRouteMethodWithOneConnection() {
+        void getShortestRoute_withOneConnection() {
             List<Station> expected = routeWithOneConnection;
-            List<Station> actual = calculator.getShortestRoute(stationIndex.getStation("Арбузная"), stationIndex.getStation("Луковая"));
+            List<Station> actual = calculator.getShortestRoute(stationIndex.getStation("Арбузная"),
+                    stationIndex.getStation("Луковая"));
             assertEquals(expected, actual);
         }
 
         @Test
         @Order(4)
-        public void testGetShortestRouteMethodWithOneConnectionReversed() {
+        void getShortestRoute_withOneConnectionAndReversedStations() {
             List<Station> expected = routeWithOneConnectionReversed;
-            List<Station> actual = calculator.getShortestRoute(stationIndex.getStation("Луковая"), stationIndex.getStation("Арбузная"));
+            List<Station> actual = calculator.getShortestRoute(stationIndex.getStation("Луковая"),
+                    stationIndex.getStation("Арбузная"));
             assertEquals(expected, actual);
         }
 
         @Test
         @Order(5)
-        public void testGetShortestRouteMethodWithTwoConnections() {
+        void getShortestRoute_withTwoConnections() {
             List<Station> expected = routeWithTwoConnections;
-            List<Station> actual = calculator.getShortestRoute(stationIndex.getStation("Яблочная"), stationIndex.getStation("Игоревская"));
+            List<Station> actual = calculator.getShortestRoute(stationIndex.getStation("Яблочная"),
+                    stationIndex.getStation("Игоревская"));
             assertEquals(expected, actual);
         }
 
         @Test
         @Order(6)
-        public void testGetShortestRouteMethodWithTwoConnectionsReversed() {
+        void getShortestRoute_withTwoConnectionsAndReversedStations() {
             List<Station> expected = routeWithTwoConnectionsReversed;
-            List<Station> actual = calculator.getShortestRoute(stationIndex.getStation("Игоревская"), stationIndex.getStation("Яблочная"));
+            List<Station> actual = calculator.getShortestRoute(stationIndex.getStation("Игоревская"),
+                    stationIndex.getStation("Яблочная"));
             assertEquals(expected, actual);
         }
 
         @Test
         @Order(7)
-        public void testGetShortestRouteMethodNonExistent() {
-            List<Station> actual = calculator.getShortestRoute(stationIndex.getStation("Яблочная"), stationIndex.getStation("Собачья"));
+        void getShortestRoute_withUnconnectedStations_shouldReturnZeroSizeRoute() {
+            List<Station> actual = calculator.getShortestRoute(stationIndex.getStation("Яблочная"),
+                    stationIndex.getStation("Собачья"));
             assertEquals(0, actual.size());
         }
     }
@@ -238,7 +246,7 @@ public class RouteCalculatorTest {
     class CalculateDuration {
         @Test
         @Order(1)
-        public void testCalculateDurationMethodRouteWithoutConnections() {
+        void calculateDuration_withRouteNotHavingConnections() {
             double actual = RouteCalculator.calculateDuration(routeWithoutConnections);
             double expected = 5;
             assertEquals(expected, actual);
@@ -246,7 +254,7 @@ public class RouteCalculatorTest {
 
         @Test
         @Order(2)
-        public void testCalculateDurationMethodRouteWithoutConnectionsReversed() {
+        void calculateDuration_withRouteNotHavingConnectionsAndWithReversedStations() {
             double actual = RouteCalculator.calculateDuration(routeWithoutConnectionsReversed);
             double expected = 5;
             assertEquals(expected, actual);
@@ -254,7 +262,7 @@ public class RouteCalculatorTest {
 
         @Test
         @Order(3)
-        public void testCalculateDurationMethodRouteWithOneConnection() {
+        void calculateDuration_withRouteHavingOneConnection() {
             double actual = RouteCalculator.calculateDuration(routeWithOneConnection);
             double expected = 8.5;
             assertEquals(expected, actual);
@@ -262,7 +270,7 @@ public class RouteCalculatorTest {
 
         @Test
         @Order(4)
-        public void testCalculateDurationMethodRouteWithOneConnectionReversed() {
+        void calculateDuration_withRouteHavingOneConnectionAndWithReversedStations() {
             double actual = RouteCalculator.calculateDuration(routeWithOneConnectionReversed);
             double expected = 8.5;
             assertEquals(expected, actual);
@@ -270,7 +278,7 @@ public class RouteCalculatorTest {
 
         @Test
         @Order(5)
-        public void testCalculateDurationMethodRouteWithTwoConnections() {
+        void calculateDuration_withRouteHavingTwoConnections() {
             double actual = RouteCalculator.calculateDuration(routeWithTwoConnections);
             double expected = 22;
             assertEquals(expected, actual);
@@ -278,7 +286,7 @@ public class RouteCalculatorTest {
 
         @Test
         @Order(6)
-        public void testCalculateDurationMethodRouteWithTwoConnectionsReversed() {
+        void calculateDuration_withRouteHavingTwoConnectionsReversed() {
             double actual = RouteCalculator.calculateDuration(routeWithTwoConnectionsReversed);
             double expected = 22;
             assertEquals(expected, actual);
@@ -286,7 +294,7 @@ public class RouteCalculatorTest {
 
         @Test
         @Order(7)
-        public void testCalculateDurationMethodNonExistentRoute() {
+        void calculateDuration_withZeroSizeRoute_shouldReturnZero() {
             double actual = RouteCalculator.calculateDuration(new ArrayList<>());
             double expected = 0;
             assertEquals(expected, actual);
@@ -294,10 +302,14 @@ public class RouteCalculatorTest {
     }
 
     @AfterAll
-    static void tearDownMetroAndRoutesAndRouteCalculator() {
+    static void tearDown() {
+        // ---------------- Metro ---------------------
         stationIndex = null;
+
+        // --------------- Calculator ---------------
         calculator = null;
 
+        // --------------- Routes ---------------
         routeWithoutConnections.clear();
         routeWithoutConnectionsReversed.clear();
         routeWithOneConnection.clear();
