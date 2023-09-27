@@ -1,0 +1,51 @@
+"c:\Program Files\MySQL\MySQL Workbench 8.0\mysql.exe" -u root -p
+Enter password: springcourse
+
+Переменная среды:
+c:\Program Files\MySQL\MySQL Workbench 8.0
+
+mysql -u root -pspringcourse
+
+mysql -u root -pspringcourse skillbox < "G:\Video\-=Обучающее видео=-\Programming\Java\[SkillBox] Профессия Java-разработчик PRO (Пилипенко Даниил, Овчинников Михаил)\Профессия Java-разработчик\10.Работа с MySQL в Java\10.4 Домашняя работа 10.1\skillbox_sql_dump.sql";
+
+-----------------------------------------------------
+
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'NEW_PASSWORD';
+
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'root';
+
+FLUSH PRIVILEGES;
+
+-----------------------------------------------------
+
+"c:\Program Files\MySQL\MySQL Workbench 8.0\mysql.exe" -u root -p
+Enter password: root
+
+Переменная среды:
+c:\Program Files\MySQL\MySQL Workbench 8.0
+
+mysql -u root -proot
+
+mysql -u root -proot skillbox < "G:\Video\-=Обучающее видео=-\Programming\Java\[SkillBox] Профессия Java-разработчик PRO (Пилипенко Даниил, Овчинников Михаил)\Профессия Java-разработчик\10.Работа с MySQL в Java\10.4 Домашняя работа 10.1\skillbox_sql_dump.sql";
+
+-----------------------------------------------------
+
+SHOW VARIABLES LIKE "character\_set\_database";
+
+SHOW VARIABLES LIKE "character%";
+
+SET NAMES utf8mb4;
+-- SET NAMES cp866;
+
+CREATE DATABASE skillbox;
+CREATE DATABASE IF NOT EXISTS skillbox;
+
+DROP DATABASE skillbox;
+
+SHOW databases;
+
+USE skillbox;
+
+SHOW TABLES;
+
+SELECT * FROM courses;
