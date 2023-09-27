@@ -1,0 +1,3 @@
+visualvm.exe --jdkhome "c:\Users\Home\.jdks\openjdk-17.0.1" --userdir "C:\Temp\visualvm_userdir"
+
+visualvm.exe --jdkhome "c:\Users\Home\.jdks\openjdk-17.0.1"

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="warn">
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%highlight{%d{HH:mm:ss.SSS} [%-16t] %-5level %logger{36} - %msg%n}{TRACE=BRIGHT_BLACK, DEBUG=BRIGHT_CYAN, INFO=BRIGHT_GREEN, WARN=BRIGHT_YELLOW, ERROR=BRIGHT_RED, FATAL=RED}"
+                           charset="UTF-8" disableAnsi="false"/>
+        </Console>
+
+        <RollingFile name="Transactions" fileName="logs/transactions.log"
+                     filePattern="logs/transactions_$${date:yyyy-MM-dd}/transactions_%d{yyyy-MM-dd-HH-mm}_%i.log"
+                     append="true"
+                     immediateFlush="true"
+                     createOnDemand="false">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+            <Filters>
+                <ThresholdFilter level="warn" onMatch="DENY" onMismatch="NEUTRAL"/>
+            </Filters>
+            <Policies>
+<!--                <CronTriggeringPolicy schedule="* * 1 * * ?"/>-->
+                <TimeBasedTriggeringPolicy interval="1"/>
+                <SizeBasedTriggeringPolicy size="10 MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="20"/>
+        </RollingFile>
+
+        <RollingFile name="TransactionErrors" fileName="logs/transaction_errors.log"
+                     filePattern="logs/transaction_errors_$${date:yyyy-MM-dd}/transaction_errors_%d{yyyy-MM-dd-HH-mm}_%i.log"
+                     append="true"
+                     immediateFlush="true"
+                     createOnDemand="false">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+            <Filters>
+                <ThresholdFilter level="error" onMatch="DENY" onMismatch="NEUTRAL"/>
+            </Filters>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1"/>
+                <SizeBasedTriggeringPolicy size="10 MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="20"/>
+        </RollingFile>
+
+        <RollingFile name="TransactionExceptions" fileName="logs/transaction_exceptions.log"
+                     filePattern="logs/transaction_exceptions_$${date:yyyy-MM-dd}/transaction_exceptions_%d{yyyy-MM-dd-HH-mm}_%i.log"
+                     append="true"
+                     immediateFlush="true"
+                     createOnDemand="false">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+            <Filters>
+                <ThresholdFilter level="fatal" onMatch="DENY" onMismatch="NEUTRAL"/>
+            </Filters>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1"/>
+                <SizeBasedTriggeringPolicy size="10 MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="20"/>
+        </RollingFile>
+    </Appenders>
+    
+    <Loggers>
+        <Root level="all">
+            <AppenderRef ref="Console" level="info"/>
+            <AppenderRef ref="Transactions" level="info"/>
+            <AppenderRef ref="TransactionErrors" level="warn"/>
+            <AppenderRef ref="TransactionExceptions" level="error"/>
+        </Root>
+    </Loggers>
+</Configuration>
