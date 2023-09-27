@@ -148,18 +148,18 @@ Skillbox (Java Core, OOP, RegEx, JUnit, Mockito, Log4j, Jsoup, Tomcat, Multithre
     10.1. Установка MySQL  
     10.2. Подключение через JDBC  
     10.3. Запросы без ResultSet  
-    10.4. [Домашняя работа 10.1](./)  
+    10.4. [Домашняя работа 10.1](./m10-working-with-mysql-in-java/JDBCExperiments)  
     10.5. Hibernate — подключение и настройка  
-    10.6. [Домашняя работа 10.2](./)  
+    10.6. [Домашняя работа 10.2](./m10-working-with-mysql-in-java/)  
     10.7. Hibernate изменение данных в базе  
     10.8. Связи ManyToOne и OneToMany  
     10.9. Связь ManyToMany  
-    10.10. [Домашняя работа 10.3](./)  
+    10.10. [Домашняя работа 10.3](./m10-working-with-mysql-in-java/HibernateExperiements)  
     10.11. Hibernate query builder  
     10.12. Ленивая загрузка данных  
     10.13. Where и OrderBy  
     10.14. HQL  
-    10.15. [Домашняя работа 10.4](./)   
+    10.15. [Домашняя работа 10.4](./m10-working-with-mysql-in-java/HibernateExperiements)   
 
 11. [**Многопоточность**](./m11-multithreading)  
     11.1. Зачем нужна многопоточность  
