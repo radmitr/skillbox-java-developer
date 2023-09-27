@@ -30,7 +30,7 @@ EXAMPLE_11_3: [Deadlock](./Deadlock)
 TASK_11_1_1: [ImageResizer](./ImageResizer)  
 TASK_11_1_2: [ImageResizer](./ImageResizer)  
 TASK_11_2: [Transactions](./Transactions)  
-TASK_11_3: [SiteMap](./SiteMap)  
+TASK_11_3: [SiteMapCreator](./SiteMapCreator)  
 
 ---------------------------------------------
 
@@ -151,7 +151,7 @@ TASK_11_2: [Transactions](./Transactions)
 
 **Решение**
 
-TASK_11_3: [SiteMap](./SiteMap)
+TASK_11_3: [SiteMapCreator](./SiteMapCreator)
 
 **Критерии оценки**
 
