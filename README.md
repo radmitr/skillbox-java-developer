@@ -165,7 +165,7 @@ Skillbox (Java Core, OOP, RegEx, JUnit, Mockito, Log4j, Jsoup, Tomcat, Multithre
     11.1. Зачем нужна многопоточность  
     11.2. Класс Thread  
     11.3. Интерфейс Runnable  
-    11.4. [Домашняя работа 11.1](./)  
+    11.4. [Домашняя работа 11.1](./m11-multithreading/ImageResizer)  
     11.5. Состояние гонки и критические секции  
     11.6. Атомарные переменные  
     11.7. Ключевое слово Volatile  
@@ -174,7 +174,7 @@ Skillbox (Java Core, OOP, RegEx, JUnit, Mockito, Log4j, Jsoup, Tomcat, Multithre
     11.10. Взаимодействие потоков — методы Wait и Notify  
     11.11. Потокобезопасные классы  
     11.12. Взаимная блокировка — Deadlock  
-    11.13. [Домашняя работа 11.2](./)  
+    11.13. [Домашняя работа 11.2](./m11-multithreading/Transactions)  
     11.14. Интерфейс Callable  
     11.15. Executors, Executor и ExecutorService  
     11.16. Метод Shutdown  
@@ -182,7 +182,7 @@ Skillbox (Java Core, OOP, RegEx, JUnit, Mockito, Log4j, Jsoup, Tomcat, Multithre
     11.18. ScheduledExecutorService  
     11.19. Приостановка и прерывание потоков  
     11.20. ForkJoinPool и RecursiveTask  
-    11.21. [Домашняя работа 11.3](./)  
+    11.21. [Домашняя работа 11.3](./m11-multithreading/SiteMapCreator)  
 
 12. [**Разработка веб-приложений**](./m12-web-application-development)  
     12.1. Создание Maven-проекта  
