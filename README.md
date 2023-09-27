@@ -182,7 +182,7 @@ Skillbox (Java Core, OOP, RegEx, JUnit, Mockito, Log4j, Jsoup, Tomcat, Multithre
     11.18. ScheduledExecutorService  
     11.19. Приостановка и прерывание потоков  
     11.20. ForkJoinPool и RecursiveTask  
-    11.21. [Домашняя работа 11.3](./m11-multithreading/SiteMapCreator)  
+    11.21. [Домашняя работа 11.3](./m11-multithreading/SitemapCreator)  
 
 12. [**Разработка веб-приложений**](./m12-web-application-development)  
     12.1. Создание Maven-проекта  
