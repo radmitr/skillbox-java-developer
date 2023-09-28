@@ -1,0 +1,12 @@
+cd \Users\Дмитрий\Desktop
+cd Desktop
+
+java -jar spb-metro-1.0-SNAPSHOT-jar-with-dependencies.jar
+
+java -jar spb-metro-1.0-SNAPSHOT-jar-with-dependencies.jar > log.log
+
+java -jar spb-metro-1.0-SNAPSHOT-jar-with-dependencies.jar 1> log.log
+
+java -jar spb-metro-1.0-SNAPSHOT-jar-with-dependencies.jar 2> errors.log
+
+java -jar spb-metro-1.0-SNAPSHOT-jar-with-dependencies.jar 2>> errors.log
