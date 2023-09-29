@@ -1,4 +1,4 @@
-package singleton;
+package singleton.example;
 
 public class RuntimeExample {
 
