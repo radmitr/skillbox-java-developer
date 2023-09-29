@@ -16,7 +16,7 @@ public class CarRoute extends Route {
             double length = LengthCalculator.getLength(
                     points.get(i), points.get(i + 1)
             );
-            totalDuration += length * SpeedProvider.getSpeed(
+            totalDuration += length / SpeedProvider.getSpeed(
                     points.get(i), points.get(i + 1)
             );
         }
