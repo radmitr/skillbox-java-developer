@@ -8,8 +8,7 @@ public class DoubleSpinningProgram extends SpecialWashingProgram {
 
     @Override
     public void executeProgram() {
-        BasicWashingProgram washingProgram =
-                (BasicWashingProgram) this.washingProgram;
+        BasicWashingProgram washingProgram = (BasicWashingProgram) this.washingProgram;
         washingProgram.executeProgram();
         for (int i = 0; i < 5; i++) {
             washingProgram.rotateDrum(-30);
