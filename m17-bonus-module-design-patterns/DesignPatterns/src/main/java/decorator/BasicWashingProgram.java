@@ -30,5 +30,6 @@ public class BasicWashingProgram implements WashingProgram {
         rotateDrum(1500);
         drainOff();
         rotateDrum(1500);
+        drainOff();
     }
 }
