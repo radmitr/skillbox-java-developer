@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+// Service
 public class Customer {
 
     public int getCallsCount(Date from, Date to) {

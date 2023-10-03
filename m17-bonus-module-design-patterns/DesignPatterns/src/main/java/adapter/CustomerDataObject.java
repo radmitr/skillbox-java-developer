@@ -3,6 +3,7 @@ package adapter;
 import java.util.Date;
 import java.util.List;
 
+// Adapter
 public class CustomerDataObject implements DataObject {
 
     private Customer customer;
