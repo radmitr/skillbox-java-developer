@@ -1,5 +1,6 @@
 package strategy;
 
+// Algorithm 3
 public class YandexMoney implements PaymentMethod {
 
     private String billNumber;

@@ -1,5 +1,6 @@
 package strategy;
 
+// Algorithm 2
 public class CreditCard implements PaymentMethod {
 
     private String cardNumber;
@@ -23,7 +24,7 @@ public class CreditCard implements PaymentMethod {
             System.out.println("Payed with credit card");
             return true;
         }
-        System.out.println("Some error occured :(");
+        System.out.println("Some error occurred :(");
         return true;
     }
 }

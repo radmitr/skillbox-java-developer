@@ -1,5 +1,6 @@
 package strategy;
 
+// Algorithm 1
 public class Cash implements PaymentMethod {
 
     public Cash() {

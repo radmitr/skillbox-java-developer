@@ -1,5 +1,6 @@
 package strategy;
 
+// Context
 public class StrategyTest {
 
     public static void main(String[] args) {

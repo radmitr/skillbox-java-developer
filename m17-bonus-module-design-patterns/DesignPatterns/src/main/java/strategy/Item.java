@@ -1,5 +1,6 @@
 package strategy;
 
+// For context
 public class Item {
 
     private String name;

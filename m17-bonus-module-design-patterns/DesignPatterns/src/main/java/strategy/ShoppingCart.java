@@ -2,6 +2,7 @@ package strategy;
 
 import java.util.HashMap;
 
+// Context
 public class ShoppingCart {
 
     HashMap<Item, Integer> items;
