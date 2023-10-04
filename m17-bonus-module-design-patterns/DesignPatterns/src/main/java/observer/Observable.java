@@ -2,6 +2,7 @@ package observer;
 
 import java.util.HashSet;
 
+// Observable (publisher), subject
 public class Observable {
 
     private HashSet<Observer> observers;
