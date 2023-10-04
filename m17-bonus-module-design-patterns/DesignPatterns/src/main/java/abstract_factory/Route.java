@@ -3,6 +3,7 @@ package abstract_factory;
 import java.awt.Point;
 import java.util.List;
 
+// Abstract product - Route
 public abstract class Route {
 
     protected List<Point> points;

@@ -3,6 +3,7 @@ package abstract_factory;
 import java.awt.Point;
 import java.util.List;
 
+// Product 2 - TaxiRoute
 public class TaxiRoute extends Route {
 
     private double averageSpeed;

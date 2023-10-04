@@ -3,6 +3,7 @@ package abstract_factory;
 import java.awt.Point;
 import java.util.List;
 
+// Concrete factory 2 - TaxiRouteFactory
 public class TaxiRouteFactory implements RouteAbstractFactory {
 
     private List<Point> points;
@@ -17,6 +18,7 @@ public class TaxiRouteFactory implements RouteAbstractFactory {
 
     @Override
     public Route createRoute() {
+        // Product 2 -  TaxiRoute
         TaxiRoute route = new TaxiRoute(points);
         route.setCostPerKm(costPerKm);
         route.setCostPerMinute(costPerMinute);

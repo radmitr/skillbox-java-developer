@@ -3,6 +3,7 @@ package abstract_factory;
 import java.awt.Point;
 import java.util.List;
 
+// Product 1 - CarRoute
 public class CarRoute extends Route {
 
     public CarRoute(List<Point> points) {

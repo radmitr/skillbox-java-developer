@@ -4,6 +4,8 @@ import java.awt.Point;
 import java.util.ArrayList;
 import java.util.List;
 
+// Client -> Route
+// Client -> RouteAbstractFactory
 public class RouteCalculator {
 
     public static void main(String[] args) {
