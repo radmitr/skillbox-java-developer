@@ -1,5 +1,6 @@
 package decorator;
 
+// SomeComponent
 public class BasicWashingProgram implements WashingProgram {
 
     public void fillByWater() {

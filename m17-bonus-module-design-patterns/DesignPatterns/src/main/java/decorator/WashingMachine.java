@@ -1,5 +1,6 @@
 package decorator;
 
+// Client
 public class WashingMachine {
 
     public static void main(String[] args) {

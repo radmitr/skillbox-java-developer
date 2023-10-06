@@ -1,5 +1,6 @@
 package decorator;
 
+// SomeDecorator1
 public class BoilingWashingProgram extends SpecialWashingProgram {
 
     public BoilingWashingProgram(WashingProgram washingProgram) {

@@ -1,5 +1,6 @@
 package decorator;
 
+// Decorator
 public abstract class SpecialWashingProgram implements WashingProgram {
 
     protected WashingProgram washingProgram;
