@@ -2,6 +2,7 @@ package adapter;
 
 import java.util.Date;
 
+// For service
 public class Call {
 
     private int duration;

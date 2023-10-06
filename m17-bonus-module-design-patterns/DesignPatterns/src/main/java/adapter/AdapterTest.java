@@ -3,15 +3,16 @@ package adapter;
 import java.util.Date;
 import java.util.List;
 
+// Client
 public class AdapterTest {
 
     public static void main(String[] args) {
-        // Service
+        // service
         Customer customerService = new Customer();
-        // Adapter
+        // adapter
         CustomerDataObject adapter = new CustomerDataObject(customerService);
 
-        // Client
+        // client
         double callsPerMonth = adapter.getValue("callsPerMonth");
         double callsPerYear = adapter.getValue("callsPerYear");
         double minutesPerMonth = adapter.getValue("minutesPerMonth");
@@ -21,7 +22,7 @@ public class AdapterTest {
 
         //-----------------------------------------------------------------------
 
-        // Service examples
+        // service examples
         Date now = new Date();
         Date someTimeAgo = new Date(now.getTime() - 1000);
         int callsCount = customerService.getCallsCount(now, someTimeAgo);
