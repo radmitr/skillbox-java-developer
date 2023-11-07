@@ -6,7 +6,7 @@ Skillbox (Java Core, OOP, RegEx, JUnit, Mockito, Log4j, Jsoup, Tomcat, Multithre
 
 <details>
     <summary>
-        <h3>Программа курса</h3>
+        <b>Программа курса</b>
     </summary>
 
 1. [**Вводный модуль**](./m01-introductory-module)  
@@ -264,7 +264,7 @@ Skillbox (Java Core, OOP, RegEx, JUnit, Mockito, Log4j, Jsoup, Tomcat, Multithre
     16.8. Язык программирования Kotlin  
     16.9. Реактивное программирование и RxJava  
 
-17. [**Бонус-модуль. Паттерны проектирования**](./m17-bonus-module-design-patterns)  
+17. [**Бонус-модуль. Паттерны проектирования**](./m17-bonus-module-design-patterns/DesignPatterns)  
     17.1. Что такое паттерны проектирования  
     17.2. Паттерн Singleton  
     17.3. Паттерн Factory  
@@ -289,7 +289,7 @@ Skillbox (Java Core, OOP, RegEx, JUnit, Mockito, Log4j, Jsoup, Tomcat, Multithre
     18.9. Алгоритм поиска подстроки Рабина-Карпа  
     18.10. Алгоритм поиска подстроки Кнута-Морриса-Пратта  
     18.11. Алгоритм поиска подстроки Бойера-Мура  
-    18.12. [Домашняя работа 18.1](./)  
+    18.12. [Домашняя работа 18.1](./m18-bonus-module-algorithms/Algorithms)  
 
 19. [**Бонус-модуль. Структуры данных**](./m19-bonus-module-data-structures)  
     19.1. Введение в структуры данных  
